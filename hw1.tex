@@ -1,0 +1,68 @@
+\documentclass{amsart} 
+\usepackage{amssymb,latexsym,amsmath,amscd,graphics,setspace,amsthm,verbatim}
+%\usepackage[margin = 3 cm]{geometry}
+
+
+\theoremstyle{plain}
+%Create a problem environment to type up the questions.
+\newtheorem{problem}{Problem}
+      
+%Create an environment Solution where the students will write their solutions.
+\newenvironment{solution}{\paragraph{\emph{Solution 1}.}}{\hfill$\square$}
+
+
+%Create an environment for the second try if necessary.
+\newenvironment{sectry}{\paragraph{\emph{Solution 2}.}}{\hfill$\square$}
+
+
+\begin{document} 
+
+\title[Homework 1]{Homework 1}
+\author{My name is:  WRITE YOUR NAME HERE}  %Replace WRITE YOUR NAME HERE by your actual full name
+\date{\today} 
+\maketitle 
+
+%The first problem.
+\begin{problem}
+Let $p$ and $q$ be two statements.  
+\begin{enumerate}
+\item Construct a truth table for $p \land q$ and $q \land p$.  (In other words, fill out the truth table below.  To help you out at first with LaTex, I already typed the table.)
+\item What do you notice??
+\end{enumerate}
+\end{problem}
+
+%The solution environment in which you type your first try.
+\begin{solution}
+\begin{center}
+\begin{tabular}{c|c|c|c}
+$p$ & $q$ & $p \land q$ & $q \land p$  \\
+\hline
+ 1 & 1 & & \\
+ 1 & 0 & & \\
+ 0 & 1 & & \\
+ 0 & 0 & &
+\end{tabular}
+\end{center}
+I notice that ...
+
+\end{solution}
+
+For the second problem, you are on your own.  Based on the previous problem, build the table in LaTex.  There should be $7$ columns.
+%The second problem.
+\begin{problem}
+Let $p$ and $q$ be statements.  Construct the truth table for the compound statement
+$$(p \lor q) \lor ((\neg p) \land q) \to q $$
+\end{problem}
+
+%The solution environment in which you type your first try.
+\begin{solution}
+The truth table for $(p \lor q) \lor ((\neg p) \land q) \to q$ is ... 
+
+\end{solution}
+
+If you have a problem with LaTex, you can always come to my office hours and when you do so, bring your laptop with you.
+
+\end{document}
+
+
+
