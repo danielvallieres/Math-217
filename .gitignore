@@ -3,3 +3,6 @@
 
 # The corresponding pdf file shared with them in Canvas
 *.pdf
+
+# The backup files
+*~
