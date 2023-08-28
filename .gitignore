@@ -1,0 +1,5 @@
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# The corresponding pdf file shared with them in Canvas
+*.pdf
