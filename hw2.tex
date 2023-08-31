@@ -1,0 +1,204 @@
+\documentclass{amsart} 
+\usepackage{amssymb,latexsym,amsmath,amscd,graphics,amsthm,verbatim}
+%\usepackage[margin = 3 cm]{geometry}
+
+
+\theoremstyle{plain}
+%Create a problem environment to type up the questions.
+\newtheorem{problem}{Problem}
+      
+%Create an environment Solution where the students will write their solutions.
+\newenvironment{solution}{\paragraph{\emph{Solution 1}.}}{\hfill$\square$}
+
+
+%Create an environment for the second try if necessary.
+\newenvironment{sectry}{\paragraph{\emph{Solution 2}.}}{\hfill$\square$}
+
+
+\begin{document} 
+
+\title[Homework 2]{Homework 2}
+\author{My name is:  WRITE YOUR NAME HERE}  %Replace WRITE YOUR NAME HERE by your actual full name
+\date{\today} 
+\maketitle 
+
+\begin{problem}
+Are the following two statement forms logically equivalent?  Explain why or why not.
+$$p \to (q \to r) \text{ and } (p \to q) \to r. $$
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+\begin{problem}
+Is the following statement form a tautology, a contradiction or neither?  Explain your answer by constructing a truth table.
+$$(p \land \neg q) \land( (\neg p) \lor q). $$
+\end{problem}
+\begin{solution}
+% Write you solution here.
+
+\end{solution}
+
+\begin{problem} \label{prob}
+Write negations for each of the following statements.  (Recall the logical equivalence $\neg(p \to q) \equiv p \land (\neg q)$...)
+\begin{enumerate}
+\item If $P$ is a square, then $P$ is a rectangle.
+\item If today is New Year's Eve, then tomorrow is January.
+\item If the decimal expansion of $r$ is terminating, then $r$ is rational.
+\item If $n$ is prime, then $n$ is odd or $n$ is 2.
+\item If $x$ is nonnegative, then $x$ is positive or $x$ is $0$.
+\item If Tom is Ann's father, then Jim is her uncle and Sue is her aunt.
+\item If $n$ is divisible by $6$, then $n$ is divisible by $2$ and $n$ is divisible by $3$.
+\end{enumerate}
+\end{problem}
+\begin{solution}
+% Write your solution here.
+
+\end{solution}
+
+
+\begin{problem}
+\hfill
+\begin{enumerate}
+\item Write contrapositives for the statements of Problem \ref{prob}.
+\item Write converses for the statements of Problem \ref{prob}.
+\end{enumerate}
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+\begin{problem}
+Use truth tables to determine whether the argument forms below are valid.
+\begin{enumerate}
+\item
+\begin{equation*}
+\begin{aligned}
+& \,\,p \to q \\
+& \,\,q \to p \\
+\therefore & \,\, p \lor q \\
+\end{aligned}
+\end{equation*}
+\item
+\begin{equation*}
+\begin{aligned}
+& \,\,p  \\
+& \,\, p \to q \\
+& \,\, \neg q \lor r \\
+\therefore & \,\,  r \\
+\end{aligned}
+\end{equation*}
+\item
+\begin{equation*}
+\begin{aligned}
+& \,\,p \lor q \\
+& \,\, p \to \neg q \\
+& \,\, p \to r \\
+\therefore & \,\, \neg r \\
+\end{aligned}
+\end{equation*}
+\item
+\begin{equation*}
+\begin{aligned}
+& \,\,p \land q \to \neg r  \\
+& \,\, p \lor \neg q \\
+& \,\, \neg q \to p \\
+\therefore & \,\, \neg r \\
+\end{aligned}
+\end{equation*}
+\end{enumerate}
+\end{problem}
+
+\begin{solution}
+% Write your solution here.
+
+\end{solution}
+
+\begin{problem}
+Use truth tables to show the following forms of argument are invalid.
+\begin{enumerate}
+\item
+\begin{equation*}
+\begin{aligned}
+& \,\,p \to q \\
+& \,\, q \\
+\therefore & \,\, p \\
+& \text{(converse error)}
+\end{aligned}
+\end{equation*}
+\item
+\begin{equation*}
+\begin{aligned}
+& \,\,p \to q \\
+& \,\, \neg p \\
+\therefore & \,\, \neg q \\
+& \text{(inverse error)}
+\end{aligned}
+\end{equation*}
+\end{enumerate}
+\end{problem}
+
+\begin{solution}
+% Write your solution here.
+
+\end{solution}
+
+
+\begin{problem}
+Some of the arguments below are valid, whereas others exhibit the converse or the inverse error.  Use symbols to write the logical form of each argument.  If the argument is valid, identify the rule of inference that guarantees its validity.  Otherwise, state whether the converse or the inverse error is made.
+\begin{enumerate}
+\item 
+\begin{equation*}
+\begin{aligned}
+& \, \, \text{If Jules solved this problem correctly, then Jules obtained the answer }2. \\
+& \, \, \text{Jules obtained the answer }2. \\
+\therefore &\,\, \text{Jules solved this problem correctly.} \\
+\end{aligned}
+\end{equation*}
+\item
+\begin{equation*}
+\begin{aligned}
+& \, \, \text{This real number is rational or it is irrational.} \\
+& \, \, \text{This real number is not rational.} \\
+\therefore &\,\, \text{This real number is irrational.} \\
+\end{aligned}
+\end{equation*}
+\item
+\begin{equation*}
+\begin{aligned}
+& \, \, \text{If I go to the movies, I won't finish my homework.} \\
+& \, \, \text{If I don't finish my homework, I won't do well on the exam tomorrow.} \\
+\therefore &\,\, \text{If I go to the movies, I won't do well on the exam tomorrow.} \\
+\end{aligned}
+\end{equation*}
+\end{enumerate}
+\end{problem}
+
+\begin{solution}
+% Write your solution here.
+
+\end{solution}
+
+
+\begin{problem}
+You are given the following information about a computer program, and your goal is to find the mistake in the program.
+\begin{enumerate}
+\item There is an undeclared variable or there is a syntax error in the first five lines.
+\item If there is a syntax error in the first five lines, then there is a missing semicolon or a variable name is misspelled.
+\item There is not a missing semicolon.
+\item There is not a misspelled variable name.
+\end{enumerate}
+For that purpose, extract the various statements and name them using the variable names $s_{1}, s_{2}, s_{3}, s_{4}$.  Then reexpress each of the statements as a statement form involving the statement variables $s_{1},s_{2},s_{3}, s_{4}$ and logical connectives.  Reason through the problem, and make sure to clearly indicate at every step which rule of inference your are using.
+\end{problem}
+
+\begin{solution}
+% Write your solution here.
+
+\end{solution}
+
+
+
+\end{document}
+
+
+
