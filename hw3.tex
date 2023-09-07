@@ -1,0 +1,178 @@
+\documentclass{amsart} 
+\usepackage{amssymb,latexsym,amsmath,amscd,graphics,amsthm,verbatim,url}
+%\usepackage[margin = 3 cm]{geometry}
+
+
+\theoremstyle{plain}
+%Create a problem environment to type up the questions.
+\newtheorem{problem}{Problem}
+      
+%Create an environment Solution where the students will write their solutions.
+\newenvironment{solution}{\paragraph{\emph{Solution 1}.}}{\hfill$\square$}
+
+
+%Create an environment for the second try if necessary.
+\newenvironment{sectry}{\paragraph{\emph{Solution 2}.}}{\hfill$\square$}
+
+
+\begin{document} 
+
+\title[Homework 3]{Homework 3}
+\author{My name is:  WRITE YOUR NAME HERE}  %Replace WRITE YOUR NAME HERE by your actual full name
+\date{\today} 
+\maketitle 
+
+\begin{problem}
+Do problems 26 and 28 from your book on page 92.
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+\begin{problem}
+Represent $1000111_{2}$ in decimal notation.
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+\begin{problem}
+Another basis that is often used to represent positive integers is $16$ instead of $10$ (decimal) or $2$ (binary).  This representation is called the hexadecimal representation.  Since we need one character per position, one uses $A$ for $10$, $B$ for $11$, $C$ for $12$, $D$ for $13$, $E$ for $14$, and $F$ for $15$.  For instance
+$$3CF_{16} = 975_{10}. $$ 
+Go ahead and find the hexadecimal representation of $2619_{10}$.  (Hint:  Adapt the procedure we saw in class for base $2$ to base $16$.)  Practice some more on your own to write the binary and hexadecimal representation of positive integers.
+\end{problem}
+\begin{solution}
+% Write you solution here.
+
+\end{solution}
+
+\begin{problem} 
+Do problem 21 on page 107 of your book.
+\end{problem}
+\begin{solution}
+% Write your solution here.
+
+\end{solution}
+
+
+\begin{problem}
+Read the section \emph{Circuits for Computer Addition} in your book on page 97, 98, and 99.  Then draw a digital circuit that allows one to add two binary numbers of length four.  If interested, you can go to 
+\begin{center}
+\url{https://logic.ly/demo/samples} 
+\end{center}
+and construct digital circuits using this website.
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+\begin{problem}
+Let $Q(x,y)$ be the predicate ``If $x<y$ then $x^{2}<y^{2}$'' with domain for both $x$ and $y$ being $\mathbb{R}$.
+\begin{enumerate}
+\item Explain why $Q(x,y)$ is false if $x = -2$ and $y=1$. \label{first}
+\item Give values different from those in part (\ref{first}) for which $Q(x,y)$ is false.
+\item Explain why $Q(x,y)$ is true if $x=3$ and $y=8$. \label{third}
+\item Give values different from those in part (\ref{third}) for which $Q(x,y)$ is true.
+\end{enumerate}
+\end{problem}
+
+\begin{solution}
+% Write your solution here.
+
+\end{solution}
+
+\begin{problem}
+Consider the quantified statement:
+\begin{equation*}
+\begin{aligned}
+&x: \mathbb{R}\\
+&\forall x, x \ge 1/x.
+\end{aligned}
+\end{equation*}
+Is this statement true or false?  If false, find a counterexample.
+\end{problem}
+
+\begin{solution}
+% Write your solution here.
+
+\end{solution}
+
+
+\begin{problem}
+Consider the quantified statement:
+\begin{equation*}
+\begin{aligned}
+&x,y : \mathbb{R}\\
+&\forall x,\forall y, (x + y)^2 = x^2 + y^2.
+\end{aligned}
+\end{equation*}
+Is this statement true or false?  If false, find a counterexample.
+\end{problem}
+
+\begin{solution}
+% Write your solution here.
+
+\end{solution}
+
+\begin{problem}
+Consider the quantified statement:
+\begin{equation*}
+\begin{aligned}
+&x,y : \mathbb{R}\\
+&\exists x,\exists y, (x + y)^2 = x^2 + y^2.
+\end{aligned}
+\end{equation*}
+Is this statement true or false?  If true, give an example.
+\end{problem}
+
+\begin{solution}
+% Write your solution here.
+
+\end{solution}
+
+\begin{problem}
+Consider the following quantified statement:
+\begin{equation*}
+\begin{aligned}
+&x : \mathbb{R}\\
+&\exists x, x^{2} = 2.
+\end{aligned}
+\end{equation*}
+Which of the following are equivalent ways of expressing this statement?
+\begin{enumerate}
+\item The square of each real number is $2$.
+\item Some real numbers have square $2$.
+\item The number $x$ has square $2$, for some real number $x$.
+\item If $x$ is a real number, then $x^{2} = 2$.
+\item Some real number has square $2$.
+\item There is at least one real number whose square is $2$.
+\end{enumerate}
+\end{problem}
+
+\begin{solution}
+% Write your solution here.
+
+\end{solution}
+
+
+\begin{problem}
+Let $\mathbb{R}$ be the domain of the predicate variable $x$.  Which of the following are true and which are false?  Give counterexamples for the statements that are false.
+\begin{enumerate}
+\item $x > 2 \Rightarrow x > 1$
+\item $x > 2 \Rightarrow x^{2} > 4$
+\item $x^{2} > 4 \Rightarrow x > 2$
+\item $x^{2}>4 \Leftrightarrow |x| > 2$
+\end{enumerate}
+\end{problem}
+
+\begin{solution}
+% Write your solution here.
+
+\end{solution}
+
+
+
+\end{document}
+
+
+
