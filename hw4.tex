@@ -1,0 +1,132 @@
+\documentclass{amsart} 
+\usepackage{amssymb,latexsym,amsmath,amscd,graphics,amsthm,verbatim,url}
+%\usepackage[margin = 3 cm]{geometry}
+
+
+\theoremstyle{plain}
+%Create a problem environment to type up the questions.
+\newtheorem{problem}{Problem}
+      
+%Create an environment Solution where the students will write their solutions.
+\newenvironment{solution}{\paragraph{\emph{Solution 1}.}}{\hfill$\square$}
+
+
+%Create an environment for the second try if necessary.
+\newenvironment{sectry}{\paragraph{\emph{Solution 2}.}}{\hfill$\square$}
+
+
+\begin{document} 
+
+\title[Homework 4]{Homework 4}
+\author{My name is:  WRITE YOUR NAME HERE}  %Replace WRITE YOUR NAME HERE by your actual full name
+\date{\today} 
+\maketitle 
+
+\begin{problem}
+Which of the following is a negation for ``All discrete mathematics students are athletic?''  More than one answer may be correct.
+\begin{enumerate}
+\item There is a discrete mathematics student who is non athletic.
+\item All discrete mathematics students are nonathletic.
+\item There is an athletic person who is not a discrete mathematics students.
+\item No discrete mathematics students are athletic.
+\item Some discrete mathematics students are nonathletic.
+\item No athletic people are discrete mathematics students.
+\end{enumerate}
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+\begin{problem}
+Write a formal negation for each of the following statements.
+\begin{enumerate}
+\item $\forall$ string $s$, $s$ has at least one character.
+\item $\forall$ computer $c$, $c$ has a CPU.
+\item $\exists$ a movie $m$ such that $m$ is over $6$ hours long.
+\item $\exists$ a band $b$ such that $b$ has won at least $10$ Grammy awards.
+\end{enumerate}
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+\begin{problem}
+Write a negation of the statement
+$$\forall\text{ real number }x, \text{ if }x>3 \text{ then } x^{2}>9. $$
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+
+\begin{problem}
+Let 
+$$D = \{-48,-14,-8,0,1,3,16,23,26,32,36 \}. $$
+Determine which of the following statements are true and which are false.  Provide counterexamples for the statements that are false.
+\begin{enumerate}
+\item $\forall x \in D$, if $x$ is odd then $x > 0$.
+\item $\forall x \in D$, if $x$ is less than $0$ then $x$ is even.
+\item $\forall x \in D$, if $x$ is even then $x \le 0$.
+\item $\forall x \in D$, if the ones digit of $x$ is $2$, then the tens digit is $3$ or $4$.
+\item $\forall x \in D$, if the ones digit of $x$ is $6$, then the tens digit is $1$ or $2$.
+\end{enumerate}
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+\begin{problem}
+Let $D = E = \{-2,-1,0,1,2 \}$.  Write negations for each of the following statements and determine which is true, the given statement or its negation.
+\begin{enumerate}
+\item $\forall x \in D, \exists y \in E$ such that $x + y = 1$.
+\item $\exists x \in D$ such that $\forall y \in E$, $x+y = -y$.
+\item $\forall x \in D, \exists y \in E$ such that $xy \ge y$.
+\item $\exists x \in D$ such that $\forall y \in E, x \le y$.
+\end{enumerate}
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+\begin{problem}
+Consider the following statement:
+$$\forall x \in \mathbb{R}, \exists y \in \mathbb{R} \text{ such that } x < y. $$
+Write a new statement by interchanging the symbols $\forall$ and $\exists$, and state which is true:  the given statement, the version with interchanged quantifiers, neither, or both.
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+\begin{problem}
+Let $A = \{1,3,5,7,9 \}$, $B = \{3,6,9 \}$, and $C = \{2,4,6,8 \}$.  Find each of the following:
+\begin{enumerate}
+\item $A \cup B$
+\item $A \cap B$
+\item $A \cup C$
+\item $A \cap C$
+\item $A \smallsetminus B$
+\item $B \smallsetminus A$
+\item $B \cup C$
+\item $B \cap C$
+\end{enumerate}
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+\begin{problem}
+In each of the followings, answer the following questions:  Is $A \subseteq B$?  Is $B \subseteq A$?  Is either $A$ or $B$ a proper subset of the other?
+\begin{enumerate}
+\item $A = \{2, \{2 \}, (\sqrt{2})^{2} \}$, $B = \{2, \{2\},\{\{2\}\} \}$ 
+\item $A = \{ \{ 1,2\}, \{2,3\}\}$, $B = \{1,2,3 \}$
+\item $A = \{a,b,c \}$, $B = \{\{a\}, \{ b\}, \{c\} \}$
+\item $A = \{\sqrt{16}, \{4 \} \}$, $B = \{4\}$,
+\item $A = \{ x \in \mathbb{R} : \cos(x) \in \mathbb{Z} \}$, $B = \{x \in \mathbb{R} : \sin(x) \in \mathbb{Z} \}$
+\end{enumerate}
+\end{problem}
+
+
+\end{document}
+
+
+
