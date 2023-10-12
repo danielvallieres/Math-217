@@ -1,0 +1,131 @@
+\documentclass{amsart} 
+\usepackage{amssymb,latexsym,amsmath,amscd,graphics,amsthm,verbatim,url}
+%\usepackage[margin = 3 cm]{geometry}
+
+
+\theoremstyle{plain}
+%Create a problem environment to type up the questions.
+\newtheorem{problem}{Problem}
+      
+%Create an environment Solution where the students will write their solutions.
+\newenvironment{solution}{\paragraph{\emph{Solution 1}.}}{\hfill$\square$}
+
+
+%Create an environment for the second try if necessary.
+\newenvironment{sectry}{\paragraph{\emph{Solution 2}.}}{\hfill$\square$}
+
+
+\begin{document} 
+
+\title[Homework 7]{Homework 7}
+\author{My name is:  WRITE YOUR NAME HERE}  %Replace WRITE YOUR NAME HERE by your actual full name
+\date{\today} 
+\maketitle 
+
+\begin{problem}
+Do problems 1 and 2 in your book on page 435.
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+\begin{problem}
+Define the function $S:\mathbb{Z}_{>0} \rightarrow \mathbb{Z}_{>0}$ via 
+$$n \mapsto S(n) = \text{ the sum of the positive divisors of } n.$$
+Find the following:
+\begin{enumerate}
+\item $S(1)$
+\item $S(15)$
+\item $S(17)$
+\item $S(5)$
+\item $S(18)$
+\item $S(21)$
+\end{enumerate}
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+\begin{problem}
+Define the function $T:\mathbb{Z}_{>0} \rightarrow \mathcal{P}(\mathbb{Z}_{>0})$ via
+$$m \mapsto T(n) = \text{ the set of positive divisors of }n. $$
+Find the following:
+\begin{enumerate}
+\item $T(1)$
+\item $T(15)$
+\item $T(17)$
+\item $T(5)$
+\item $T(18)$
+\item $T(21)$
+\end{enumerate}
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+
+\begin{problem}
+Consider the function $f:\mathbb{Z} \times \mathbb{Z} \rightarrow \mathbb{Z} \times \mathbb{Z}$ defined via
+$$(a,b) \mapsto f(a,b) = (2a+1,3b-2). $$
+Find the following:
+\begin{enumerate}
+\item $f(4,4)$
+\item $f(2,1)$
+\item $f(3,2)$
+\item $f(1,5)$
+\end{enumerate}
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+
+
+\begin{problem}
+Recall the \emph{floor} and the \emph{ceiling} functions.  The floor function is a function $\lfloor \, \,\,\rfloor:\mathbb{R} \rightarrow \mathbb{Z}$ defined via
+$$x \mapsto \lfloor x \rfloor = \text{ the unique integer } n \text{ satisfying } n \le x < n+1,$$
+and the ceiling function $\lceil \, \, \, \rceil:\mathbb{R} \rightarrow \mathbb{Z}$ is defined via
+$$x \mapsto \lceil x \rceil = \text{ the unique integer } n \text{ satisfying } n-1 < x \le n.$$
+
+Define now two new functions $H, K:\mathbb{R} \rightarrow \mathbb{R}$ via
+$$x \mapsto H(x) = \lfloor x \rfloor + 1 $$
+and
+$$x \mapsto K(x) = \lceil x \rceil. $$
+Does $H = K$?  Explain.
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+\begin{problem}
+Let $f:A \rightarrow B$ be a function and let $A_{1}, A_{2}$ be subsets of $A$ satisfying $A_{1} \subseteq A_{2}$.  Do we always have
+$$f(A_{1}) \subseteq f(A_{2})? $$
+If yes, prove it.  Otherwise, give a counterexample.
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+\begin{problem}
+Let $f:A \rightarrow B$ be a function and let $A_{1}, A_{2}$ be subsets of $A$.  Do we always have
+$$f(A_{1} \cap A_{2}) = f(A_{1}) \cap f(A_{2})? $$
+If yes, prove it.  Otherwise, give a counterexample.
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+\begin{problem}
+Let $f:A \rightarrow B$ be a function and let $B_{1}, B_{2}$ be subsets of $B$.  Do we always have
+$$f^{-1}(B_{1} \cap B_{2}) = f^{-1}(B_{1}) \cap f^{-1}(B_{2})? $$
+If yes, prove it.  Otherwise, give a counterexample.
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+
+\end{document}
+
+
+
