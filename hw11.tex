@@ -1,0 +1,101 @@
+\documentclass{amsart} 
+\usepackage{amssymb,latexsym,amsmath,amscd,graphics,amsthm,verbatim,url}
+%\usepackage[margin = 3 cm]{geometry}
+
+
+\theoremstyle{plain}
+%Create a problem environment to type up the questions.
+\newtheorem{problem}{Problem}
+      
+%Create an environment Solution where the students will write their solutions.
+\newenvironment{solution}{\paragraph{\emph{Solution 1}.}}{\hfill$\square$}
+
+
+%Create an environment for the second try if necessary.
+\newenvironment{sectry}{\paragraph{\emph{Solution 2}.}}{\hfill$\square$}
+
+
+\begin{document} 
+
+\title[Homework 11]{Homework 11}
+\author{My name is:  WRITE YOUR NAME HERE}  %Replace WRITE YOUR NAME HERE by your actual full name
+\date{\today} 
+\maketitle 
+
+\begin{problem}
+Here is a warm-up problem.  Let $n = 10$.  Which of the followings are true and which ones are false?  Every time, explain why.
+\begin{enumerate}
+\item $21 \equiv 2 \pmod{10}$
+\item $111 \equiv 11 \pmod{10}$
+\item $21 \equiv -19 \pmod{10}$
+\end{enumerate}
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+\begin{problem}
+Here is another warm-up problem.  Let $n = 6$.  List all of the elements in $\mathbb{Z}/6\mathbb{Z}$.  How many elements are there in $\mathbb{Z}/6\mathbb{Z}$?
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+\begin{problem}
+Consider $n = 6$.  Calculate $[4] + [7]$ and $[4 \cdot 7]$.  For both calculations, your answer should be of the form $[i]$ for some $i \in \{0,1,2,\ldots,5 \}$.
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+\begin{problem}
+Let $n = 10$.  We have seen in class that the equivalence classes for congruence modulo $10$ are precisely the equivalence classes $[i]$, where $i$ runs over $\{0,1,\ldots,9 \}$.  We also saw that equivalence classes can be added and multiplied together using their representatives.  Which ones are square?  In other words, among the $10$ different distinct equivalence classes, tell me which ones are of the form $C^{2}$ for some equivalence class $C$.  
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+\begin{problem}
+Let $n$ be a positive integer.  An integer $a$ modulo $n$ is called a unit, if there exists another integer $b$ such that
+$$a \cdot b \equiv 1 \pmod{n}. $$
+The corresponding equivalence class $[a]$ is then also called a unit.  Find the units of $\mathbb{Z}/10\mathbb{Z}$.
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+
+\begin{problem}
+Here is a problem for the thinkers among you:  Let $n = 4$, and let $a,b \in \mathbb{Z}$.  Assume that $b$ is not divisible by $4$ so that $[b] \neq [0]$.  Do you think one could define the algebraic operation ``divides'' in terms of the representatives as follows:
+$$[a]/[b] : = [a/b]??? $$
+If you think that makes sense, explain, otherwise tell me why you think that would not make sense.
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+
+\begin{problem}
+Let $n = 2$ and consider $\mathbb{Z}/2\mathbb{Z}$.  Note that, as we explained in class,  $\mathbb{Z}/2\mathbb{Z}$ has two elements, namely $[0]$ and $[1]$, and we can think about those as a bit in computer science.  The two operations $+$ and $\cdot$ that we defined on $\mathbb{Z}/2\mathbb{Z}$ can be summarized in the table below that you should complete on your own.
+\begin{center}
+\begin{tabular}{c|c|c|c}
+x & y & $x + y$ & $x \cdot y$  \\
+\hline
+$ [1]$ & $[1]$ & $[0]$ & $[1]$ \\
+ $[1] $& $[0]$ & & \\
+$ [0]$ & $[1]$ & & \\
+ $[0]$ & $[0]$ & &
+\end{tabular}
+\end{center}
+Can you recognize there two operations as some logical connectors from the beginning of the semester??
+\end{problem}
+\begin{solution}
+% Write your solution here.
+\end{solution}
+
+
+
+\end{document}
+
+
+
